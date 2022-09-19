@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+    background-color: #263238;
+}
+
+.video-container {
+    width: 75%;
+    margin: auto;
+}
+
+.video-name {
+    color: white;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.episode {
+    width: 75%;
+    margin: auto;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+div h2 {
+    color: white;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.episode-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    margin: 10px 10px 0 0 ;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:first-child {
+    background-color: red;
+}
